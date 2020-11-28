@@ -1,0 +1,4 @@
+Important note about copyright of the data sets.
+
+The copyright of the data sets differ, see notes in the corresponding _info_ files!
+

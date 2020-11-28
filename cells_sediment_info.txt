@@ -1,0 +1,15 @@
+Dataset: cells_sediment.csv
+
+Description: Abundance of Microcystis cells in the sediment of a
+shallow reservoir.
+
+License: Please read and cite original reference.
+
+Source: 
+
+Tilo Ihle Sabine Jähnichen, and Jürgen Benndorf (2005): Wax and Wane
+of Microcystis (Cyanophyceae) and Microcystins in Lake Sediments: A
+Case Study in Quitzdorf Reservoir (Germany) J. Phycol. 41, 479-488
+
+Technische Universitaet Dresden, Institute of Hydrobiology, Workgroup Limnology
+
