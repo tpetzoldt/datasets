@@ -1,14 +1,14 @@
 Dataset: oecd.csv
 
-Description: Chlorophyll (chla) and Total Phosphorus (tp) Data of the OECD Lakes
+Description: Chlorophyll (CHLa) and Total Phosphorus (TP) Data of the OECD Lakes
 
 Source: Taken manually from Fig. 6.1 of the report (digitized).
 
 Details: see reference
 
-limitation: P = P limited lake, I = light limited lake, N = N limited lake
+Limitation: P = P limited lake, I = light limited lake, N = N limited lake
 
-Units of tp and chla: mg m ^-3 (milligram per cubic meter)
+Units of TP and CHLa: mg m ^-3 (milligram per cubic meter)
 
 
 Note: The data are for teaching purposes only.  The data points have
