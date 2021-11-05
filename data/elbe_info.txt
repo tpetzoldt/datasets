@@ -1,6 +1,8 @@
 ## Discharge of the Elbe River, Gauge Dresden in m3/s ##
 
-Note: this is a subset of a longer data set since 1806!
+elbe-1806.csv: data set since 1806
+elbe.csv     : subset from 1989 to 2019
+Status       : data set updated 2021-11-05
 
 Data Source: Bundesanstalt für Gewässerkunde (BFG), level database of the German Federal Waterways and Shipping Administration (WSV). 
 
@@ -28,7 +30,10 @@ This applies to first, second and any subsequent use.
 
 ## Durchfluss der Elbe am pegel Dresden in m3/s ##
 
-Achtung: Das ist ein Teildatensatz eines längeren Datensatzes seit 1806!
+elbe-1806.csv: Datensatz seit 1806
+elbe.csv     : Teildatensatz von 1989 to 2019
+Status       : Update 2021-11-05
+
 
 Die übermittelten Datensätze entstammen der Pegeldatenbank der Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV).
 Sie wurden durch die pegelbetreibenden Wasserstraßen- und Schifffahrtsämter geprüft und veröffentlicht.
@@ -41,7 +46,7 @@ Vor 1900 konnten für den Abfluss keine Kontrollmessungen durchgeführt werden.
 Daten ab 01.11.1889 wurden im Rahmen des Projekts "W-Q Elbe 1890" überarbeitet.
 Bei den aktuellen Daten handelt es sich um Tagesmittelwerte, bei den historischen Daten um manuelle Pegelablesung bzw. Schreiberaufzeichnungen. 
 
-Die Datei wird von T. Petzoldt für Lehrveranstaltungen angepasst.
+Die Datei wurde von T. Petzoldt für Lehrveranstaltungen angepasst.
 Es wird keine Garantie für die Richtigkeit übernommen.
 
 Bitte benutzen Sie bei Publikationen die folgende Zitierweise:
