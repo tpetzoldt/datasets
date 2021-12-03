@@ -10,7 +10,7 @@ Some data sets are "toy data" realeased to the public domain or as free educatio
 
 Daat can be downloaded to a local folder or directly be opened in a data analysis language like R:
 
-** Example:**
+**Example:**
 
 ```
 file <- "https://raw.githubusercontent.com/tpetzoldt/datasets/main/data/clementines.csv"
