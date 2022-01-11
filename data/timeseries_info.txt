@@ -1,0 +1,12 @@
+Dataset: timeseries.csv
+
+Description: Artifical data set to demonstrate a trend stationary (TSP) 
+             and a difference stationary process (DSP).
+              
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+
+Source: Thomas Petzoldt
+        Technische Universitaet Dresden
+        Institut fuer Hydrobiologie
+
+Maintainer: Th. Petzoldt thomas.petzoldt@tu-dresden.de
