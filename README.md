@@ -8,9 +8,9 @@ Some data sets are "toy data" realeased to the public domain or as free educatio
 
 ## Howto read from **R**
 
-Daat can be downloaded to a local folder or directly be opened in a data analysis language like R:
+Data can be downloaded to a local folder or directly be opened in a data analysis language like R:
 
-** Example:**
+**Example**
 
 ```
 file <- "https://raw.githubusercontent.com/tpetzoldt/datasets/main/data/clementines.csv"
@@ -20,4 +20,4 @@ info <- readChar("https://raw.githubusercontent.com/tpetzoldt/datasets/main/data
 cat(info)
 ```
 
-**Note:** This repository is experimental and may suddenly change witout notice.
+**Note:** This repository is experimental and may suddenly change without notice.
