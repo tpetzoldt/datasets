@@ -14,3 +14,4 @@ https://opendata.dwd.de/climate_environment/CDC/Terms_of_use.txt
 
 Contact: thomas.petzoldt@tu-dresden.de (for the derived data file)
          https://www.dwd.de            (for the original data)
+         
