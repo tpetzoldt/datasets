@@ -1,0 +1,14 @@
+Dataset: watertemp_may.csv
+
+Description: Mean water temperature in epilimnion of 
+   Saidenbach reservoir in May. The data set is intended as course 
+   example and may have been supplemented or otherwise modified.
+   Please consult Lakebase (https://fred.igb-berlin.de/) 
+   for original data if needed for research questions.
+
+Source: Technische Universitaet Dresden
+        Institute of Hydrobiology
+        Oekologische Station Neunzehnhain
+
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Contact: thomas.petzoldt@tu-dresden.de
