@@ -16,7 +16,7 @@ As an alternative, it is also possible to download the full repostitory with all
 
 ## How to read a data set directly from **R**
 
-Data can be downloaded to a local folder or directly be opened in a data analysis language like R:
+Data can also be directly be opened in a data analysis language like R:
 
 **Example**
 
