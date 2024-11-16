@@ -10,7 +10,7 @@ Some data sets are "toy data" released to the public domain or as free education
 
 1. go to the **data** folder
 2. Open the desired data set
-3. Click on the download button, left to "Raw"
+3. Click on the download button, right to "Raw"
 
 As an alternative, it is also possible to download the full repostitory with all data as zip file.
 
