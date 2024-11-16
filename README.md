@@ -6,7 +6,15 @@ This repository contains data sets for teaching purposes. Licenses of data diffe
 
 Some data sets are "toy data" released to the public domain or as free educational resources under the CC BY-SA license, while other "free data" underly the copyright of the original maintainers (data related to hydrology, meteorology, and water quality). In this case it is stated that the data provided here are a modified work and NOT the original data. This means that always the original data provider must be cited (see info files) and no guarantee is given for correctness.
 
-## Howto read from **R**
+## How to dowanload a data set
+
+1. go to the **data** folder
+2. Open the desired data set
+3. Click on the download button, left to "Raw"
+
+As an alternative, it is also possible to download the full repostitory with all data as zip file.
+
+## How to read from **R**
 
 Data can be downloaded to a local folder or directly be opened in a data analysis language like R:
 
