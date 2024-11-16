@@ -8,7 +8,7 @@ Some data sets are "toy data" released to the public domain or as free education
 
 ## How to download a data set
 
-1. go to the **data** folder
+1. Go to the **data** folder
 2. Open the desired data set
 3. Click on the download button, right to "Raw"
 
