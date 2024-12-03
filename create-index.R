@@ -14,10 +14,17 @@ html_template <- '
   <title>Elements of Statistics: Example Datasets</title>
 </head>
 <body>
-  <h1>Elements of Statistics: Example Datasets</h1>
+  <h1>Elements of Statistics: List of Example Datasets</h1>
   <ul>
     %s
   </ul>
+  <h2>Related Work</h2>
+  <ul>
+  <li><a href="../elements/">Lecture Slides</a></li>
+  <li><a href="../element-labs/">Lab Exercises</a></li>
+  </ul>
+  <p>2024-12-03, <a href="https://github.com/tpetzoldt">https://github.com/tpetzoldt</a>
+  </p>
 </body>
 </html>
 '
