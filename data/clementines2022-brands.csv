@@ -1,0 +1,5 @@
+brand,sample,shop,type,quality,origin,package,year,day,kilogram,price,team,color
+box1,box1,Lidl,Clementines,Basic,Spain,box,2022,Friday,4,4.49,team1,orange
+box2,box2,Lidl,Clementines,Basic,Spain,box,2022,Tuesday,4,2.49,team2,orange
+S1,Net1,Lidl,Satsuma,Premium,Turkiye,net,2022,Friday,1.5,2.99,team3,yellow
+LB,Net2,Lidl,Clementines,Basic,Spain,net,2022,Tuesday,1,1.99,thpe,orange

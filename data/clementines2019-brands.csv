@@ -1,0 +1,9 @@
+brand,shop,type,quality,origin,package,year,kilogram,price,team
+EB,Edeka,Basic,Basic,Spain,Net,2019,1.5,2.99,unknown
+EP,Edeka,Gold,Premium,Spain,Net,2019,0.75,1.49,unknown
+LB,Lidl,Basic,Basic,Spain,Net,2019,1,1.49,unknown
+LO,Lidl,Bio,Premium,Spain,Net,2019,0.5,1.49,unknown
+NX,Netto,Box,Basic,Spain,Box,2019,2.3,2.99,unknown
+NP,Netto,Premium,Premium,Spain,Net,2019,1,2.29,unknown
+NB,Netto,Basic,Basic,Spain,Net,2019,1,1.49,unknown
+NC,Netto,Basic,Basic,Spain,Net,2019,1,1.49,unknown

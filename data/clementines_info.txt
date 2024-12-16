@@ -10,6 +10,9 @@ Source: The data are from a students course experiments.
 
 clementines2017.csv: November 2017
 clementines.csv:     November 2020
+clmentinesXXXX-fruits.csv  several data sets
+clmentinesXXXX-brands.csv  correponding metadata
+
 
 Samples of Clementines were bought in different shops, 
 then weight (in g), width and height (in mm) were measured.

@@ -1,0 +1,6 @@
+brand,sample,shop,type,quality,origin,package,year,day,kilogram,price,team,color
+box1,box1,Lidl,Clementines,Basic,Spain,box,2023,Friday,2.3,4.99,team1,orange
+box2,box2,Lidl,Clementines,Basic,Spain,box,2023,Tuesday,2.3,3.99,team2,orange
+netA,netA,Lidl,Clementines,Basic,Spain,net,2023,Friday,1,1.69,hydrobioA,orange
+netB,netB,Lidl,Clementines,Basic,Spain,net,2023,Friday,1,1.69,hydrobioB,orange
+netC,netC,Lidl,Satsuma,Premium,Spain,net,2023,Friday,1.5,2.99,thpe,yellow
