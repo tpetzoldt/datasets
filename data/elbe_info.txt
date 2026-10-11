@@ -1,62 +1,89 @@
-## Discharge of the Elbe River, Gauge Dresden in m3/s ##
+## Discharge of the Elbe River, Gauge Dresden in m³/s ##
 
-elbe-1806.csv: data set since 1806
-elbe.csv     : subset from 1989 to 2019
-Status       : data set updated 2021-11-05
+elbe-1806.csv : Combined dataset 1806 to 2026, column "provider"
+                distinguishes data source and licence (see below)
+elbe-2000.csv : Recent data 2000 to 2026 (raw data, Source: WSV / PEGELONLINE)
+elbe.csv      : Reduced Teaching Subset 1989 to 2019 (validated data, Source: BfG)
 
-Data Source: Bundesanstalt für Gewässerkunde (BFG), level database of the German Federal Waterways and Shipping Administration (WSV). 
-
-Data have been checked and published by the waterway and shipping authorities operating the gauge.
-
-Data errors and inconsistencies can not completely be excluded.
-A guarantee for correctness and completeness of the data can not be given by the WSV or the BfG.
-Data of the 19th century are particularly uncertain.
-Before 1900, no control measurements could be carried out for the runoff. 
-Data from November 1st, 1889 were revised as part of the project "W-Q Elbe 1890".
-Recent data are daily average discharges. Historical data were taken from manual gauge readings or paper level recorders.
-
-Data file adapted and by T. Petzoldt for teaching purposes.
-No guarantee for correctness of the data!
-
-Please use the following citation for publications:
+Status        : Dataset updated 2026-10-10
 
 ---------------------------------------------------------------------
-Data Source:
-Federal Waterways and Shipping Administration (WSV),
-provided by the Federal Institute for Hydrology (BfG).
+Data Sources & Terms of Use
+---------------------------------------------------------------------
+IMPORTANT: "elbe-1806.csv" is a COMBINED dataset containing data under
+TWO DIFFERENT LICENCES. The column "provider" identifies which licence
+applies to each record:
 
-This applies to first, second and any subsequent use.
-=====================================================================
+  provider = "BfG"  -> records up to 2019-12-31  (see 1. below)
+  provider = "WSV"  -> records from 2020-01-01   (see 2. below)
+  
+---------------------------------------------------------------------
+Mandatory Citation / Attribution
+---------------------------------------------------------------------
+Due to the terms governing the BfG subset of this combined dataset,
+please cite as follows for any publication or derivative use:
 
-## Durchfluss der Elbe am pegel Dresden in m3/s ##
+  Data Source: Federal Waterways and Shipping Administration (WSV),
+  provided by the Federal Institute for Hydrology (BfG).
 
-elbe-1806.csv: Datensatz seit 1806
-elbe.csv     : Teildatensatz von 1989 to 2019
-Status       : Update 2021-11-05
+(This applies to first, second, and any subsequent use.)
 
-
-Die übermittelten Datensätze entstammen der Pegeldatenbank der Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV).
-Sie wurden durch die pegelbetreibenden Wasserstraßen- und Schifffahrtsämter geprüft und veröffentlicht.
-
-Datenfehler und Inkonsistenzen sind nicht vollständig auszuschließen. 
-Eine Gewähr für die Richtigkeit und Vollständigkeit der Daten wird insofern weder durch die WSV noch durch die BfG übernommen.
-
-Daten des 19. Jahrhunderts sind mit größerer Unsicherheit behaftet.
-Vor 1900 konnten für den Abfluss keine Kontrollmessungen durchgeführt werden. 
-Daten ab 01.11.1889 wurden im Rahmen des Projekts "W-Q Elbe 1890" überarbeitet.
-Bei den aktuellen Daten handelt es sich um Tagesmittelwerte, bei den historischen Daten um manuelle Pegelablesung bzw. Schreiberaufzeichnungen. 
-
-Die Datei wurde von T. Petzoldt für Lehrveranstaltungen angepasst.
-Es wird keine Garantie für die Richtigkeit übernommen.
-
-Bitte benutzen Sie bei Publikationen die folgende Zitierweise:
+For the WSV subset alone ("elbe-2000.csv", or provider == "WSV"),
+no attribution is legally required under DL-DE-Zero-2.0, though
+citation remains good scientific practice.
 
 ---------------------------------------------------------------------
-Datenquelle:
-Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV),
-bereitgestellt durch die Bundesanstalt für Gewässerkunde (BfG).
+Licence Details
+---------------------------------------------------------------------  
+1. Historical / Validated Data (provider = "BfG"; also "elbe.csv")
+   - Source: Federal Institute for Hydrology (BfG), Koblenz
+   - Validation Status: validated / partly checked (validated = TRUE)
+   - Terms: Provided under terms requiring attribution / source credit.
+     Redistribution and derivative use permitted provided the source is
+     named in full (see "Mandatory Citation" above).
 
-Dies gilt für Erst-, Zweit- und jedwede Nachnutzung.
+2. Recent Data (provider = "WSV"; also "elbe-2000.csv")
+   - Source: Federal Waterways and Shipping Administration (WSV),
+     via PEGELONLINE
+   - Validation Status: unchecked / raw data (validated = FALSE)
+   - Terms: Data licence Germany – Zero – version 2.0 (DL-DE-Zero-2.0)
+     https://pegelonline.wsv.de/gast/nutzungsbedingungen
+     https://www.govdata.de/dl-de/zero-2-0
+     This licence permits free use, including commercial use and
+     redistribution, WITHOUT any attribution requirement.
+
+Note: 
+  Because the two subsets differ in licence, the more restrictive
+  attribution requirement of (1.) governs the combined file
+  "elbe-1806.csv" as a whole. Users who require attribution-free data
+  should use "elbe-2000.csv", or filter the combined file to
+  provider == "WSV".
+
+Data Adaptation:
+  Data files adapted and merged by T. Petzoldt for teaching purposes.
+  Adaptation comprises unit-consistent merging, rounding of WSV daily
+  means to integer m³/s to match BfG precision, and addition of the
+  columns "provider" and "validated". No values were otherwise altered.
+
+---------------------------------------------------------------------
+Data Quality & Limitations
+---------------------------------------------------------------------
+- Data have been published by the operating waterway and shipping
+  authorities.
+- Data errors and inconsistencies cannot completely be excluded.
+- Neither the WSV, BfG, nor the adapter guarantees the correctness or
+  completeness of the data. No guarantee for correctness of the data!
+- The combined series is NOT HOMOGENEOUS. Provider, validation status,
+  measurement technique and rating curve (W-Q relation) changed over
+  the period of record. Comparison of the overlapping years 2020-2021
+  showed differences between BfG and WSV values.
+  Homogeneity should be verified before trend or extreme-value analysis.
+- Data from the 19th century are particularly uncertain as control
+  measurements for runoff were not carried out prior to 1900.
+- Data starting November 1st, 1889 were revised under the project
+  "W-Q Elbe 1890".
+- All values are daily mean discharges, averaged from midnight to
+  midnight local time (CET/CEST). Recent data are means of 15-minute
+  values; historical data were compiled from manual readings or paper
+  level recorders.
 =====================================================================
-
-
