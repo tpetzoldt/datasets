@@ -1,5 +1,3 @@
-# datasets
-
 ## Datasets used for teaching purposes
 
 This repository contains data sets for teaching purposes. Licenses of data differ, **please read the corresponding _..._info.txt_** files.
@@ -21,10 +19,10 @@ Data can also be directly be opened in a data analysis language like R:
 **Example**
 
 ```
-file <- "https://raw.githubusercontent.com/tpetzoldt/datasets/main/data/clementines.csv"
+file <- "https://tpetzoldt.github.io/datasets/data/clementines.csv"
 mydata <- read.csv(file)
 
-info <- readChar("https://raw.githubusercontent.com/tpetzoldt/datasets/main/data/clementines_info.txt", nchars=4096)
+info <- readChar("https://tpetzoldt.github.io/datasets/data/clementines_info.txt", nchars=4096)
 cat(info)
 ```
 

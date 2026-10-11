@@ -8,26 +8,50 @@
     body {
       font-family: "Noto Sans", "Open Sans", "Segoe UI", Roboto,
                    "Helvetica Neue", Arial, sans-serif;
-      margin: 2em auto;
-      max-width: 50em;
-      padding: 0 1em;
-      line-height: 1.5;
+      margin: 2em auto; max-width: 60em; padding: 0 1em; line-height: 1.5;
     }
+    .disclaimer {
+      border-left: 4px solid #999; background: #f5f5f5;
+      padding: 0.6em 1em; margin: 1em 0 1.5em 0; font-size: 1.2em;
+    }
+    ul.filelist {
+      column-count: 4; column-gap: 2em; list-style: none; padding-left: 0;
+    }
+    ul.filelist li { break-inside: avoid; margin-bottom: 0.25em; }
+    ul.filelist li.terms a { color: #a33; }
+    @media (max-width: 900px) { ul.filelist { column-count: 2; } }
+    @media (max-width: 500px) { ul.filelist { column-count: 1; } }
+    .readme {
+      border-top: 1px solid #ccc; margin-top: 2.5em; padding-top: 1em;
+      font-size: 0.95em;
+    }
+    .readme pre { background: #f7f7f7; padding: 0.8em; overflow-x: auto; }
   </style>
 </head>
 <body>
   <h1>Elements of Statistics: List of Example Datasets</h1>
-  <ul>
-    <li><a href="data/3_tab_kenndaten-ausgew-seen-d_2021-04-08-copyright.txt">3_tab_kenndaten-ausgew-seen-d_2021-04-08-copyright.txt</a></li>
+
+  <div class="disclaimer">
+    <strong>Terms of use:</strong> Datasets originate from different sources
+    and are subject to different licences and attribution requirements.
+    Entries shown in <span style="color:#a33">red ⓘ</span> are
+    <code>.txt</code> files containing the terms of use, licence and required
+    citation for the corresponding dataset.
+    <strong>Please read them before downloading or redistributing.</strong>
+    See also the notes <a href="#readme">below</a>.
+  </div>
+
+  <ul class="filelist">
+    <li class="terms"><a href="data/3_tab_kenndaten-ausgew-seen-d_2021-04-08-copyright.txt">3_tab_kenndaten-ausgew-seen-d_2021-04-08-copyright.txt ⓘ</a></li>
 <li><a href="data/3_tab_kenndaten-ausgew-seen-d_2021-04-08.xlsx">3_tab_kenndaten-ausgew-seen-d_2021-04-08.xlsx</a></li>
 <li><a href="data/airtemp_april.csv">airtemp_april.csv</a></li>
-<li><a href="data/airtemp_april_info.txt">airtemp_april_info.txt</a></li>
+<li class="terms"><a href="data/airtemp_april_info.txt">airtemp_april_info.txt ⓘ</a></li>
 <li><a href="data/airtemp_dresden_daily.csv">airtemp_dresden_daily.csv</a></li>
 <li><a href="data/airtemp_dresden_daily.info">airtemp_dresden_daily.info</a></li>
 <li><a href="data/cells_sediment.csv">cells_sediment.csv</a></li>
-<li><a href="data/cells_sediment_info.txt">cells_sediment_info.txt</a></li>
+<li class="terms"><a href="data/cells_sediment_info.txt">cells_sediment_info.txt ⓘ</a></li>
 <li><a href="data/clementines.csv">clementines.csv</a></li>
-<li><a href="data/clementines_info.txt">clementines_info.txt</a></li>
+<li class="terms"><a href="data/clementines_info.txt">clementines_info.txt ⓘ</a></li>
 <li><a href="data/clementines2017.csv">clementines2017.csv</a></li>
 <li><a href="data/clementines2019-brands.csv">clementines2019-brands.csv</a></li>
 <li><a href="data/clementines2019-fruits.csv">clementines2019-fruits.csv</a></li>
@@ -38,44 +62,64 @@
 <li><a href="data/elbe-1806.csv">elbe-1806.csv</a></li>
 <li><a href="data/elbe-2000.csv">elbe-2000.csv</a></li>
 <li><a href="data/elbe.csv">elbe.csv</a></li>
-<li><a href="data/elbe_info.txt">elbe_info.txt</a></li>
+<li class="terms"><a href="data/elbe_info.txt">elbe_info.txt ⓘ</a></li>
 <li><a href="data/fruits-2023-hse.csv">fruits-2023-hse.csv</a></li>
-<li><a href="data/fruits_info.txt">fruits_info.txt</a></li>
+<li class="terms"><a href="data/fruits_info.txt">fruits_info.txt ⓘ</a></li>
 <li><a href="data/gauernitz.csv">gauernitz.csv</a></li>
-<li><a href="data/gauernitz_info.txt">gauernitz_info.txt</a></li>
+<li class="terms"><a href="data/gauernitz_info.txt">gauernitz_info.txt ⓘ</a></li>
 <li><a href="data/hall.csv">hall.csv</a></li>
-<li><a href="data/hall_info.txt">hall_info.txt</a></li>
-<li><a href="data/kenndaten-seen-gps-info.txt">kenndaten-seen-gps-info.txt</a></li>
+<li class="terms"><a href="data/hall_info.txt">hall_info.txt ⓘ</a></li>
+<li class="terms"><a href="data/kenndaten-seen-gps-info.txt">kenndaten-seen-gps-info.txt ⓘ</a></li>
 <li><a href="data/kenndaten-seen-gps.csv">kenndaten-seen-gps.csv</a></li>
-<li><a href="data/kenndaten-seen-npchl-info.txt">kenndaten-seen-npchl-info.txt</a></li>
+<li class="terms"><a href="data/kenndaten-seen-npchl-info.txt">kenndaten-seen-npchl-info.txt ⓘ</a></li>
 <li><a href="data/kenndaten-seen-npchl.csv">kenndaten-seen-npchl.csv</a></li>
-<li><a href="data/lakename-abbreviations-info.txt">lakename-abbreviations-info.txt</a></li>
+<li class="terms"><a href="data/lakename-abbreviations-info.txt">lakename-abbreviations-info.txt ⓘ</a></li>
 <li><a href="data/lakename-abbreviations.csv">lakename-abbreviations.csv</a></li>
-<li><a href="data/lakes-combined-data-info.txt">lakes-combined-data-info.txt</a></li>
+<li class="terms"><a href="data/lakes-combined-data-info.txt">lakes-combined-data-info.txt ⓘ</a></li>
 <li><a href="data/lakes-combined-data.csv">lakes-combined-data.csv</a></li>
 <li><a href="data/lakes.csv">lakes.csv</a></li>
-<li><a href="data/lakes_info.txt">lakes_info.txt</a></li>
+<li class="terms"><a href="data/lakes_info.txt">lakes_info.txt ⓘ</a></li>
 <li><a href="data/leaves.csv">leaves.csv</a></li>
-<li><a href="data/leaves_info.txt">leaves_info.txt</a></li>
-<li><a href="data/LICENSE.txt">LICENSE.txt</a></li>
+<li class="terms"><a href="data/leaves_info.txt">leaves_info.txt ⓘ</a></li>
+<li class="terms"><a href="data/LICENSE.txt">LICENSE.txt ⓘ</a></li>
 <li><a href="data/oecd.csv">oecd.csv</a></li>
-<li><a href="data/oecd_info.txt">oecd_info.txt</a></li>
+<li class="terms"><a href="data/oecd_info.txt">oecd_info.txt ⓘ</a></li>
 <li><a href="data/prk_nit.csv">prk_nit.csv</a></li>
-<li><a href="data/prk_nit_info.txt">prk_nit_info.txt</a></li>
+<li class="terms"><a href="data/prk_nit_info.txt">prk_nit_info.txt ⓘ</a></li>
 <li><a href="data/radiation.csv">radiation.csv</a></li>
 <li><a href="data/radiation.info">radiation.info</a></li>
 <li><a href="data/timeseries.csv">timeseries.csv</a></li>
-<li><a href="data/timeseries_info.txt">timeseries_info.txt</a></li>
+<li class="terms"><a href="data/timeseries_info.txt">timeseries_info.txt ⓘ</a></li>
 <li><a href="data/watertemp_may.csv">watertemp_may.csv</a></li>
-<li><a href="data/watertemp_may_info.txt">watertemp_may_info.txt</a></li>
+<li class="terms"><a href="data/watertemp_may_info.txt">watertemp_may_info.txt ⓘ</a></li>
   </ul>
-  <h2>Related Work</h2>
+
+ 
+  <div class="readme" id="readme">
+    <h2>Under which conditions can I use these data?</h2>
+<p>This repository contains data sets for teaching purposes. Licenses of data differ, <strong>please read the corresponding _...<em>info.txt</em></strong> files.</p>
+<p>This repository contains datasets of two different kinds. Some are &quot;toy datasets&quot; released into the public domain or as free educational resources under a CC BY-SA licence. Others — mainly data on hydrology, meteorology and water quality — remain subject to the terms of the original data providers. For the latter, the files provided here are modified works and not the original data. In these cases the original data provider must always be cited (see the accompanying .txt info files), and no guarantee is given for the correctness or completeness of the data.</p>
+<h2>How to read a data set directly from <strong>R</strong>?</h2>
+<p>Data can be downloaded or directly be opened in a data analysis language like R:</p>
+<p><strong>Example</strong></p>
+<pre><code>file &lt;- &quot;https://tpetzoldt.github.io/datasets/data/clementines.csv&quot;
+mydata &lt;- read.csv(file)
+
+info &lt;- readChar(&quot;https://tpetzoldt.github.io/datasets/data/clementines_info.txt&quot;, nchars=4096)
+cat(info)
+</code></pre>
+<p><strong>Note:</strong> This repository is experimental and may suddenly change without notice.</p>
+
+  </div>
+  
+   <h2>Related Work</h2>
   <ul>
-  <li><a href="../elements/">Lecture Slides</a></li>
-  <li><a href="../element-labs/">Lab Exercises</a></li>
+    <li><a href="../elements/">Lecture Slides</a></li>
+    <li><a href="../element-labs/">Lab Exercises</a></li>
   </ul>
-  <p>2026-10-11, <a href="https://github.com/tpetzoldt">https://github.com/tpetzoldt</a>
-  </p>
+
+
+  <p>2026-10-11, <a href="https://github.com/tpetzoldt">https://github.com/tpetzoldt</a></p>
 </body>
 </html>
 
